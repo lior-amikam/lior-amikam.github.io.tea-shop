@@ -1,12 +1,12 @@
 html {
     font-size: 22px;
-    background-color: black;
 }
 body {
     font-family: Helvetica, Arial, sans-serif;
     color: seashell;
     opacity: 0.9;
     text-align: center;
+    background-color: black;
 }
 a {
    color:#daa520;
@@ -19,10 +19,12 @@ a {
     margin-left: 0.55rem;
 }
 
+
 nav {
     display: flex;
     flex-wrap: wrap;
     position: fixed;
+    top: 0;
     height: 3.13rem;
     width: 100%;
     border-bottom: 1px solid seashell;
@@ -33,5 +35,24 @@ nav {
 
 nav ul li {
     display: inline-block;
-    margin: 0.7rem;;
+    margin: 1rem;;
+}
+
+main .banner {
+    display: flex;
+    position: relative;
+    top: 3.17rem;
+    margin: 0 auto;
+    max-width: 54.54rem;
+    height: 31.818rem;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+}
+.banner .mission {
+    width: 100%;
+    background-color: #000;
 }
