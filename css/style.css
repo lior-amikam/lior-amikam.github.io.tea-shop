@@ -1,0 +1,37 @@
+html {
+    font-size: 22px;
+    background-color: black;
+}
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    color: seashell;
+    opacity: 0.9;
+    text-align: center;
+}
+a {
+   color:#daa520;
+}
+
+#logo {
+    height: 2.2727rem;
+    float: left;
+    margin-top: 0.55rem;
+    margin-left: 0.55rem;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    position: fixed;
+    height: 3.13rem;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0.7rem;;
+}
