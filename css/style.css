@@ -60,6 +60,7 @@ main #mission {
     align-items: center;
     justify-content: center;
 }
+
 #mission #mission-title {
     width: 100%;
     background-color: #000;
@@ -111,6 +112,7 @@ main #locations h2  {
     position: absolute;
     top: 5rem;
 }
+
 .location-container {
     background-color: #000;
     width: 25%;
@@ -129,7 +131,6 @@ footer #copyright {
     position: relative;
     left: 0.909rem;
 }
-
 
 @media only screen and (max-width: 930px) {
     html {
