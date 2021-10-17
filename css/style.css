@@ -45,8 +45,8 @@ main .banner {
     top: 3.17rem;
     margin: 0 auto;
     max-width: 54.54rem;
-    max-height: 31.818rem;
-    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
+    height: 31.818rem;
+    background-image: url("../resources/img-mission-background.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -56,4 +56,30 @@ main .banner {
 .banner .mission {
     width: 100%;
     background-color: #000;
+}
+
+main #featured-tea {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding-top: 5rem;
+    max-width: 45.454545rem;
+}
+
+figure img {
+    max-width: 13.636rem;
+    max-height: 9.09rem;
+    padding: 0.5rem;
+}
+
+figure figcaption {
+    margin: 0.4545rem;
+    font-weight: 600;
+}
+
+#featured-tea header {
+    width: 100%;
+    margin-bottom: 1rem;
 }
