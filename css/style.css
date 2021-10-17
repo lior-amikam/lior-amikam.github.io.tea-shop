@@ -30,7 +30,8 @@ nav {
     border-bottom: 1px solid seashell;
     justify-content: space-between;
     align-items: center;
-
+    z-index: 1;
+    background-color: #000;
 }
 
 nav ul li {
@@ -44,7 +45,7 @@ main .banner {
     top: 3.17rem;
     margin: 0 auto;
     max-width: 54.54rem;
-    height: 31.818rem;
+    max-height: 31.818rem;
     background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
     background-repeat: no-repeat;
     background-position: center;
