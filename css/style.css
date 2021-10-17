@@ -1,5 +1,6 @@
 html {
     font-size: 22px;
+    overflow-x: hidden;
 }
 
 body {
@@ -11,7 +12,7 @@ body {
 }
 
 p {
-    padding: 1rem;
+    padding: 0.8rem;
 }
 
 a {
@@ -116,3 +117,48 @@ main #locations h2  {
     height: 43%;
     opacity: 1;
 }
+
+footer {
+    height: 9.09rem;
+    width: 100%;
+    padding: 2.6rem 0;
+}
+
+footer #copyright {
+    text-align: left;
+    position: relative;
+    left: 0.909rem;
+}
+
+/*landscape*/
+@media only screen and (max-width: 930px) {
+    html {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 630px) {
+    html {
+        font-size: 15px;
+    }
+}
+
+/*portrait*/
+@media only screen and (max-width: 540px) {
+    #logo {
+        display: none;
+    }
+    nav {
+        justify-content: center;
+    }
+    main #featured-tea {
+        flex-direction: column;
+    }
+    html {
+        font-size: 13px;
+    }
+    p {
+        padding: 0.5rem;
+    }
+}
+
