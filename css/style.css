@@ -1,6 +1,7 @@
 html {
     font-size: 22px;
 }
+
 body {
     font-family: Helvetica, Arial, sans-serif;
     color: seashell;
@@ -8,6 +9,11 @@ body {
     text-align: center;
     background-color: black;
 }
+
+p {
+    padding: 1rem;
+}
+
 a {
    color:#daa520;
 }
@@ -39,7 +45,7 @@ nav ul li {
     margin: 1rem;;
 }
 
-main .banner {
+main #mission {
     display: flex;
     position: relative;
     top: 3.17rem;
@@ -53,7 +59,7 @@ main .banner {
     align-items: center;
     justify-content: center;
 }
-.banner .mission {
+#mission #mission-title {
     width: 100%;
     background-color: #000;
 }
@@ -82,4 +88,31 @@ figure figcaption {
 #featured-tea header {
     width: 100%;
     margin-bottom: 1rem;
+}
+
+main #locations {
+    display: flex;
+    flex-wrap: nowrap;
+    position: relative;
+    top: 3.17rem;
+    margin: 0 auto;
+    max-width: 54.54rem;
+    height: 31.818rem;
+    background-image: url("../resources/img-locations-background.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+    justify-content: space-around;
+}
+
+main #locations h2  {
+    position: absolute;
+    top: 5rem;
+}
+.location-container {
+    background-color: #000;
+    width: 25%;
+    height: 43%;
+    opacity: 1;
 }
